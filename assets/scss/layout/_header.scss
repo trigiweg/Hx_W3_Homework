@@ -23,11 +23,11 @@
 //   overflow: hidden;
 // }
 
-.menu{
+.header .menu{
   display: flex;
   flex-wrap: wrap;
 }
-.menu li a{
+.header .menu li a{
   color: #FFFFFF;
   display: block;
   font-size: 20px;
@@ -51,9 +51,8 @@
     margin-left: 15px;
     // width: 150px;
   }
-  .menu li{
-    width: 50%;
-    // margin: 0 auto 10px auto;
+  .header .menu li{
+    width: 50%; 
     border: 1px solid #FFFFFF;
     padding: 0px;
   }
@@ -61,7 +60,7 @@
     padding-right: 0px;
     padding-left: 0px; 
   }
-  .menu li a{
+  .header .menu li a{
     font-size: 16px;
   }
 }
